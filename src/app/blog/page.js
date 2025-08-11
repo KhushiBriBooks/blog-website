@@ -1,4 +1,4 @@
-import BlogClient from "@/components/Blog/BlogClient";
+import BlogClient from "@/components/Blog/BlogList";
 import Layout from "@/components/layout/Layout";
 
 export const metadata = {

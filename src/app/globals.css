@@ -34,14 +34,13 @@
     background-position: center right;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 450px;
+    min-height: 380px;
     margin: 0;
     padding: 4rem 0;
     color: #000;
-    position: relative;
 }
 
-.hero-post .content-box {
+.content-box {
     max-width: 450px;
     background-color: rgba(255, 255, 255, 0.9);
     color: black;
@@ -51,8 +50,8 @@
 
 .subscribe-form {
     background-color: rgb(240, 239, 239);
-    width: 60%;
-    height: 350px;
+    max-height: 280px;
+    height: 100vh;
 }
 
 .blog-subscription-form {
@@ -105,11 +104,22 @@
 .blog-slider-card {
     border: 2px solid rgb(158, 157, 157);
     border-radius: 5%;
-    height: 380px;
+    max-height: 380px !important;
 }
 
 .blog-subscription-form .btn{
     font-size: 0.9rem !important;
+}
+
+.contact-address-container h2,
+.contact-form h2 {
+    font-family: cursive;
+    color: rgb(244, 182, 191);
+}
+
+.contact-phone,
+.contact-email {
+    color: rgb(244, 182, 191);
 }
 
 .contact-form-btn{
@@ -117,6 +127,24 @@
     border: none;
     padding: 10px 30px;
     text-transform: uppercase;
+}
+
+.home-subscribe-seen-container{
+    gap: 4rem !important;
+}
+
+.subscribe-section-image{
+    height: auto;
+    width: 30%;
+}
+
+.col-md-3{
+    width: 30% !important;
+}
+
+.subscribe-section-cont1{
+    max-height: 260px !important;
+    
 }
 
 @media (max-width: 768px) {
@@ -129,12 +157,8 @@
         font-size: 1.8rem !important;
     }
 
-    .blog-slider-container {
-        width: 85% !important;
-    }
-
     .blog-slider-card {
-        height: 320px !important;
+       
         padding: 0.5rem !important;
     }
 
@@ -144,22 +168,20 @@
     }
 
     .subscribe-section {
-        width: 85% !important;
+        width: 100% !important;
     }
 
-    .home-subscribe-section-image {
-        height: 260px !important;
-        width: 260px !important;
+    .home-subscribe-seen-container {
+            gap: 3rem !important;
     }
 
     .subscribe-form {
-        height: 260px !important;
         padding: 1.5rem !important;
     }
 
     .subscribe-form-heading {
         width: 100% !important;
-        margin-top: 0 !important;
+        margin-top: 1.5rem !important;
     }
 
     .subscribe-form-heading h4 {
@@ -230,7 +252,7 @@
     }
 
     .blog-slider-card {
-        height: 330px !important;
+       
         width: 300px !important;
         padding: 0.2rem !important;
         padding-top: 0.5rem !important;
@@ -263,13 +285,8 @@
         width: 95% !important;
     }
 
-    .home-subscribe-section-image {
-        height: 220px !important;
-        width: 200px !important;
-    }
-
     .subscribe-form {
-        height: 220px !important;
+        /* height: 220px !important; */
         padding: 1rem !important;
     }
 
@@ -326,11 +343,20 @@
         width: 300px !important;
         height: 350px !important;
     }
+
+    .col-12{
+        width: 100% !important;
+    }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 471px) {
+    .content-box{
+        max-width: 350px !important;
+        background-color: rgba(255, 255, 255, 0.7)  !important;
+        margin: auto !important;
+    }
+
     .blog-slider-card {
-        height: 330px !important;
         width: 300px !important;
         padding: 0.2rem !important;
         padding-top: 0.5rem !important;
@@ -363,13 +389,8 @@
         width: 100% !important;
     }
 
-    .home-subscribe-section-image {
-        height: 200px !important;
-        width: 180px !important;
-    }
-
     .subscribe-form {
-        height: 200px !important;
+        /* height: 200px !important; */
         padding: 0.7rem !important;
     }
 
@@ -420,6 +441,10 @@
         width: 300px !important;
         height: 350px !important;
     }
+
+    .col-12{
+        width: 100% !important;
+    }
 }
 
 @media (max-width: 380px) {
@@ -439,5 +464,9 @@
 
     .blog-card-content h3 a{
         font-size: 1.3rem !important;
+    }
+
+    .col-12{
+        width: 100% !important;
     }
 }

@@ -6,19 +6,19 @@ const BlogCard = ({ post }) => {
         <div className='w-100 border rounded d-flex flex-row gap-4 p-3 blog-card'>
             <Image
                 src={post.images[0]}
-                alt='Blog Image'
+                alt='blog image'
                 width={300}
                 height={200}
                 className='blog-card-image'
             />
             <div className='blog-card-content'>
                 <h3>
-                    <Link href={`/blog/${post.slug}`} className='text-dark fs-4 text-decoration-none'>{post.title}</Link>
+                    <Link href={`/blog/${post.slug}`} className='text-dark fs-4 text-decoration-none blog-title'>{post.title}</Link>
                 </h3>
                 <div className="d-flex align-items-center">
                     <Image
                         src="/images/author.jpg"
-                        alt="Author"
+                        alt="author"
                         width={30}
                         height={30}
                         className="rounded-circle me-2"

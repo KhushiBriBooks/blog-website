@@ -1,4 +1,4 @@
-import ContactClient from '@/components/Contact/ContactClient'
+import ContactClient from '@/components/Contact/ContactPage'
 import Layout from '@/components/layout/Layout'
 import React from 'react'
 

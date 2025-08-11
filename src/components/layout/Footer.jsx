@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="footer-container pt-4 pb-3 border-top" style={{overflow: "hidden"}}>
+    <footer className="footer-container pt-4 pb-3 border-top overflow-hidden">
       <Container className="footer-content">
         <Row className="text-center text-md-start mb-3 justify-content-center">
           <Col xs={12} md={3} className="mb-3">

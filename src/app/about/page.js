@@ -14,7 +14,7 @@ const About = () => {
             <div className='d-flex flex-row justify-content-center align-items-center gap-3 mt-5 mb-5 about-section'>
                 <Image
                     src="/images/about-image.jpeg"
-                    alt="Author image"
+                    alt="author image"
                     width={450}
                     height={500}
                     className='ms-4'
@@ -36,7 +36,7 @@ const About = () => {
 
                 <Image 
                 src="/images/cookbook.jpg"
-                alt="Cookbook image"
+                alt="cookbook image"
                 width={400}
                 height={500}
                 />

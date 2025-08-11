@@ -1,15 +1,15 @@
 "use client";
 import Image from "next/image";
 import { Form, Button } from "react-bootstrap";
-import '../../app/globals.css';
+import '@/app/globals.css';
 
 const Subscription = () => {
   return (
     <section className="d-flex flex-lg-column flex-wrap blog-subscription-section w-25">
-      <div className="position-relative w-100 blog-sub-image">
+      <div className=" w-100 blog-sub-image position-relative">
         <Image
           src="/images/chef.jpg"
-          alt="Woman Cooking"
+          alt="woman cooking"
           fill
           style={{objectFit: "cover"}}
         />

@@ -14,10 +14,10 @@ export default function Home() {
     <Layout title={metadata.title} description={metadata.description}>
     <div>
       <HeroSection />
-      <div className="d-flex flex-column justify-content-center align-items-center">
-        <BlogSlider />
-        <SubscribeSection />
-      </div>
+      <BlogSlider />
+      <SubscribeSection />
+      {/* <div className="d-flex flex-column justify-content-center align-items-center">
+      </div> */}
     </div>
     </Layout>
   );

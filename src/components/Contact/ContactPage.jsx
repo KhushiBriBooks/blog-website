@@ -5,19 +5,19 @@ import { Button, Form } from 'react-bootstrap'
 const ContactClient = () => {
   return (
      <div className="container py-5">
-      <div className="d-flex flex-column flex-lg-row gap-5 justify-content-between m-5">
-        <div className="w-100 w-lg-50">
-          <h2 className="mb-4" style={{ fontFamily: 'cursive', color: 'rgb(244, 182, 191)' }}>
+      <div className="d-flex flex-column flex-lg-row gap-5 justify-content-between m-5 contact-container">
+        <div className="w-100 w-lg-50 contact-address-container">
+          <h2 className="mb-4 ">
             Contact Details
           </h2>
           <p><strong>Address:</strong> Alexandria, 32 Washingtorn str, 22303</p>
           <p>
             <strong>Phones:</strong>{' '}
-            <span style={{ color: 'rgb(244, 182, 191)' }}>(555)123-4567</span>
+            <span className='contact-phone'>(555)123-4567</span>
           </p>
           <p>
             <strong>E-mail:</strong>{' '}
-            <a href="mailto:info@demolink.org" style={{ color: 'rgb(244, 182, 191)' }}>
+            <a href="mailto:info@demolink.org" className='contact-email'>
               info@demolink.org
             </a>
           </p>
@@ -26,8 +26,8 @@ const ContactClient = () => {
           </p>
         </div>
 
-        <div className="w-100 w-lg-50">
-          <h2 className="mb-4" style={{ fontFamily: 'cursive', color: 'rgb(244, 182, 191)' }}>
+        <div className="w-100 w-lg-50 contact-form">
+          <h2 className="mb-4">
             Let's Get in Touch
           </h2>
           <Form>

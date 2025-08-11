@@ -5,7 +5,6 @@ import { FaRegBookmark, FaRegComment } from "react-icons/fa";
 const HeroSection = () => {
   return (
     <section className="hero-post text-white mt-0">
-      <div className="container">
         <div className="content-box ms-5">
           <p className="small fw-semibold text-uppercase mb-2">Tips & Tricks</p>
           <h1 className="fw-bold content-box-title mb-3">Green veggies with flavoured butter</h1>
@@ -17,7 +16,7 @@ const HeroSection = () => {
             <div className="d-flex align-items-center">
               <Image
                 src="/images/author.jpg"
-                alt="Author"
+                alt="author"
                 width={40}
                 height={40}
                 className="rounded-circle me-2"
@@ -34,6 +33,7 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
+      <div className="container">
       </div>
     </section>
   );
